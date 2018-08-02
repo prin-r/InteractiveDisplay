@@ -1,0 +1,22 @@
+{
+   "aClassParams" : {
+      "paramsBool" : true,
+      "paramsDouble" : -1.80,
+      "paramsFloat" : 2.299999952316284,
+      "paramsInt" : 2,
+      "paramsString" : "qwer",
+      "paramsVec2f" : {
+         "x" : -1.50,
+         "y" : 8.699999809265137
+      },
+      "paramsVec2i" : {
+         "x" : 2,
+         "y" : -1
+      },
+      "paramsVec3f" : {
+         "x" : 0.7000002264976502,
+         "y" : 8.829999923706055,
+         "z" : -10.94000053405762
+      }
+   }
+}

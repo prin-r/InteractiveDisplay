@@ -1,0 +1,123 @@
+{
+    "display" : { "width" : 640, "height" : 1080, 
+				  "x" : 0, "y" : 0,
+				  "alwaysOnTop" : false,
+				  "borderLess" : true,
+				  "hideCursor" : false },
+				  
+	"assetPath" : "D:\\src\\projects\\CinderProject\\assets\\",
+	
+	"aClassConfig" : {
+		"configBool" : false,
+		"configDouble" : 2.2,
+		"configFloat" : 1.3,
+		"configString" : "fdsa",
+		"configInt" : 2,
+		"configVec2i" : {
+			"x" : 2,
+			"y" : 3
+		},
+		"configVec2f" : {
+			"x" : 4.5,
+			"y" : 6.7
+		},
+		"configVec3f" : {
+			"x" : 1.2,
+			"y" : 3.4,
+			"z" : 5.6
+		}
+	},
+
+	"audioTemplate" : { 
+		"path" : "relativeToAssetPath", 
+		"playOption" : { "loop" : false } 
+	},
+	
+	"videoTemplate" : {
+		"path" : "relativeToAssetPath",
+		"loadOption" : "surface | texture | gstreamer | quicktime",
+		"playOption" : { "loop" : false, "pingpong" : false }
+	},
+	
+	"multimediaTemplate" : {
+		"video" : {
+			"path" : "relativeToAssetPath",
+			"loadOption" : "surface | texture | gstreamer | quicktime",
+			"blendMode" : "none | premultiply | multiply | over | add | screen", 
+			"playOption" : { "loop" : false, "pingpong" : false }
+		},
+
+		"audio" : {
+			"path" : "relativeToAssetPath",
+			"loadOption" : "surface | texture | gstreamer | quicktime",
+			"blendMode" : "none | premultiply | multiply | over | add | screen", 
+			"playOption" : { "loop" : false, "pingpong" : false }
+		},
+
+		"blendMode" : "none | premultiply | multiply | over | add | screen", 
+
+		"displayArea" : {
+			"size" : { "width" : 1, "height" : "auto" }, 
+			"position" : { "x" : 0, "y" : 0 }, 
+			"pivot" : { "x" : 0, "y" : 0 }, 
+			"rotation" : 0
+		} 
+	},
+	
+	"oldAudioTemplate" : { "path" : "relativeToAssetPath", "playOption" : { "loop" : false } },
+	
+	"oldVideoWithDisplayAreaTemplate" : 
+		{ "path" : "relativeToAssetPath", "audioPath" : "relativeToAssetPath", "loadOption" : "surface | texture | gstreamer | quicktime",
+		  "blendMode" : "none | premultiply | multiply | over | add | screen", "playOption" : { "loop" : false, "pingpong" : false },
+		  "displayArea" : {
+			 "size" : { "width" : 1, "height" : "auto" }, "position" : { "x" : 0, "y" : 0 }, 
+			 "pivot" : { "x" : 0, "y" : 0 }, "rotation" : 0
+		  } 
+	    },
+
+	"oldVideoTemplate" : 
+		{ "path" : "relativeToAssetPath", "audioPath" : "relativeToAssetPath", "loadOption" : "surface | texture | gstreamer | quicktime",
+		  "blendMode" : "none | premultiply | multiply | over | add | screen", "playOption" : { "loop" : false, "pingpong" : false }
+	    },
+
+	"cameraTemplate" : {
+		"index" : 0,
+		"size" : { "width" : 1920, "height" : 1080 },
+		"mirror" : false,
+		"properties" : {
+			"translation" : { "x" : 9.4045319774609015e-001, "y" : 5.1591063111136357e+001, "z" : -1.0590903034455167e+001 },
+			"rotation" : [ 9.9986302928375637e-001, -1.4519449534790238e-002, -7.9440705382586886e-003,
+							1.4832464114262487e-002, 9.9905415759338856e-001, 4.0875276190674679e-002,
+							7.3430701895913896e-003, -4.0987507615998071e-002, 9.9913267564404040e-001	],
+			"verticalFov" : 39.2404,
+			"aspectRatio" : 1.7778,
+			"nearPlane" : 0.1,
+			"farPlane" : 10000,
+			"offsetInPercent" : { "x" : 0.0, "y" : 0.0 }
+		}
+	},
+
+	"cameraTemplateWithoutProperties" : {
+		"index" : 0,
+		"size" : { "width" : 1920, "height" : 1080 },
+		"mirror" : false
+	},
+
+	"kinectTemplate" : {
+		"index" : 0,
+		"rangeInMm" : { "min" : 50, "max" : 4000 },
+		"mirror" : true,
+		"oniFile" : "",
+		"motor" : false
+	},
+	
+	"averCaptureTemplate" : { 
+		"width" : 1920, "height" : 1080,
+		"progressive" : true,
+		"inputType" : "hd | sd",
+		"flip" : {"horizontal" : false, "vertical" : false},
+		"rotate" : "none | cw90 | ccw90",
+		"deinterlace" : "none | bob | blend | weave" 
+	}
+	
+}
